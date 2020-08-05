@@ -1,0 +1,21 @@
+from itertools import permutations as l
+a,b=input().split()
+c=int(b)
+for i in l(sorted(a),c):
+    print("".join(i))    
+
+Sample Input
+HACK 2
+Sample Output
+AC
+AH
+AK
+CA
+CH
+CK
+HA
+HC
+HK
+KA
+KC
+KH
