@@ -1,0 +1,6 @@
+time=int(input())
+value = 3
+while time > value:
+    time = time-value
+    value =value* 2
+print(value-time+1)
